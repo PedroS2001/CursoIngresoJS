@@ -2,10 +2,14 @@
 y luego mostrarlo por 'alert' al presionar el botón  'mostrar'*/
 function mostrar()
 {
-var nombre;
-nombre= prompt("De que equipo sos?:");
+            //creo las variables 
+    var nombre;
 
-alert(nombre);
+            //uso el prompt para pedirle el nombre 
+    nombre= prompt("Como te llamas:");
+
+            //muestro su nombre por alert
+    alert(nombre);
 
 }
 

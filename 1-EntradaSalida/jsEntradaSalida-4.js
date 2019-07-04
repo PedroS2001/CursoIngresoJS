@@ -4,10 +4,14 @@
 */
 function mostrar()
 {
-var nombre;
 
-nombre = prompt("Ingrese su nombre");
-document.getElementById("elNombre").value = nombre ;
+	var nombre;
+
+			//pido el nombre por prompt y lo coloco en la variable nombre
+	nombre = prompt("Ingrese su nombre");
+
+			//Coloco la variale nombre en el cuadro de texto llamado "elNombre"
+	document.getElementById("elNombre").value = nombre ;
 
 }
 
